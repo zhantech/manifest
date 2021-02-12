@@ -157,6 +157,7 @@
   <project path="system/bt" name="system_bt" remote="derp" />
   <project path="system/core" name="system_core" remote="derp" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="derp" />
+  <project path="system/iorap" name="system_iorap" remote="derp" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="derp" />
   <project path="system/libufdt" name="system_libufdt" remote="derp" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="derp" />
