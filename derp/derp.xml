@@ -7,7 +7,7 @@
   <project path="art" name="art" remote="derp" />
   <project path="bionic" name="bionic" remote="derp" />
   <project path="bootable/recovery" name="bootable_recovery" remote="derp" />
-  <project path="manifest" name="manifest" remote="derp" />
+  <project path="manifest" name="manifest" remote="derp" revision="11-aosp" />
 
   <!-- Build -->
   <project path="build/blueprint" name="build_blueprint" remote="derp" />
@@ -54,9 +54,9 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="derp" />
-  <project path="frameworks/base" name="frameworks_base" remote="derp" />
+  <project path="frameworks/base" name="frameworks_base" remote="derp" revision="11-aosp" />
   <project path="frameworks/native" name="frameworks_native" remote="derp" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="derp" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="derp" revision="11-aosp" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="derp" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="derp" />
 
@@ -135,9 +135,9 @@
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="derp" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="derp" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="derp" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="derp" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="derp" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="derp" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="derp" revision="11-aosp" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="derp" revision="11-aosp" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="derp" revision="11-aosp" />
 
   <!-- Platform -->
   <project path="platform_testing" name="platform_testing" remote="derp" />
