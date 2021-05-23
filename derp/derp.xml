@@ -7,7 +7,7 @@
   <project path="art" name="art" remote="derp" />
   <project path="bionic" name="bionic" remote="derp" />
   <project path="bootable/recovery" name="bootable_recovery" remote="derp" />
-  <project path="manifest" name="manifest" remote="derp" />
+  <project path="manifest" name="manifest" remote="derp" revision="11-launcher3" />
 
   <!-- Build -->
   <project path="build/blueprint" name="build_blueprint" remote="derp" />
@@ -54,7 +54,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="derp" />
-  <project path="frameworks/base" name="frameworks_base" remote="derp" />
+  <project path="frameworks/base" name="frameworks_base" remote="derp" revision="11-launcher3" />
   <project path="frameworks/native" name="frameworks_native" remote="derp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="derp" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="derp" />
@@ -130,7 +130,7 @@
   <project path="packages/apps/Settings/DerpQuest" name="packages_apps_DerpQuest" remote="derp" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="derp" />
   <project path="packages/apps/SimIcons" name="simrat39/icon-pack" remote="github" revision="master" />
-  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="derp" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="derp" revision="11-launcher3" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="derp" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="derp" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="derp" />
@@ -171,9 +171,9 @@
   <project path="tools/metalava" name="tools_metalava" remote="derp" />
 
   <!-- Vendor -->
-  <project path="vendor/derp" name="vendor_derp" remote="derp" />
+  <project path="vendor/derp" name="vendor_derp" remote="derp" revision="11-launcher3" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="derp" />
-  <project path="vendor/gms" name="vendor_gms" remote="derp-gitlab" revision="11" clone-depth="1" />
+  <project path="vendor/gms" name="vendor_gms" remote="derp-gitlab" revision="11-launcher3" clone-depth="1" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="derp" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="derp" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="derp" />
